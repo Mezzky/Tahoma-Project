@@ -65,11 +65,11 @@ header{
 }
 
 .box-judul .logo-text h1,h2{
-    font-size: 7vh;
+    font-size: 7vw;
     font-weight: bold;
 }
 .box-judul .logo-text span{
-    font-size: 2.5vh;
+    font-size: 2.5vw;
 }
 
 .box-judul .logo-text h1{
