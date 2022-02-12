@@ -164,3 +164,156 @@ footer .wave{
     width: 100%;
     position: absolute;
 }
+
+/* RESPONSIVE */
+@media screen and (max-width:375px) {
+    .box-judul .logo-text h1,h2{
+        font-size: 7vw;
+        font-weight: bold;
+    }
+    .box-judul .logo-text span{
+        font-size: 2.5vw;
+    }
+    
+    .box-judul .logo-text h1{
+        margin-top: 70px;
+        color: #616063;
+    }
+    .box-judul .logo-text h2{
+        margin-top: -35px;
+    }
+    .box-judul .logo-text span{
+        margin-top: -25px;
+    }
+
+    .box-judul .logo{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .box-judul .logo-text h1,h2{
+        font-size: 7vw;
+        font-weight: bold;
+    }
+    .box-judul .logo-text span{
+        font-size: 2.5vw;
+    }
+    
+    .box-judul .logo-text h1{
+        margin-top: 70px;
+        color: #616063;
+    }
+    .box-judul .logo-text h2{
+        margin-top: -35px;
+    }
+    .box-judul .logo-text span{
+        margin-top: -25px;
+    }
+
+    .box-judul .logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    /* FORM */
+    form{
+        margin: 50px auto 0;
+        /* background-color: aquamarine; */
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
+    
+    form .phone{
+        display: block;
+        text-align: center;
+        height: 30px;
+        border-radius: 10px;
+        border: 2px solid #403C3C;
+    }
+    /* form .phone:active{
+        border: 2px solid #2E6021;
+    } */
+    
+    form .btn{
+        cursor: pointer;
+        margin-top: 15px;
+        border-radius: 10px;
+        display: block;
+        height: 30px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #2E6021;
+        border: none;
+        box-shadow: 0px 5px 3px rgba(0,0,0,.5);
+        transition: 200ms ease-in;
+    }
+    form .btn:hover{
+        box-shadow: none;
+        transform: translateY(3px);
+    }
+    
+    form .check-box{
+        /* background-color: #616063; */
+        transform: scale(.9);
+        margin-top: 40px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+    }
+    
+    form .check-box .box-1{
+        display: grid;
+        /* background-color: antiquewhite; */
+        grid-template-columns: 5% 95%;
+        gap: 20px;
+    }
+    
+    .guest{
+        margin-top: 80px;
+        padding: 5px 40px;
+        /* background-color: #2E6021; */
+        border: 3px solid #2E6021;
+        border-radius: 10px;
+        color: black;
+        font-weight: 500;
+        text-decoration: none;
+        transition: 200ms;
+        font-size: 15px;
+        transform: scale(.8);
+    }
+    .guest:hover{
+        background-color: #2E6021;
+        color: #fff;
+        /* border: none; */
+        /* padding: 10px 60px; */
+    }
+}
+
+@media screen and (max-width:480px) {
+    .box-judul .logo-text h1,h2{
+        font-size: 7vw;
+        font-weight: bold;
+    }
+    .box-judul .logo-text span{
+        font-size: 2.5vw;
+    }
+    
+    .box-judul .logo-text h1{
+        margin-top: 70px;
+        color: #616063;
+    }
+    .box-judul .logo-text h2{
+        margin-top: -35px;
+    }
+    .box-judul .logo-text span{
+        margin-top: -25px;
+    }
+
+    .box-judul .logo{
+        width: 100px;
+        height: 100px;
+    }
+}
