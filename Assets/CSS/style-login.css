@@ -15,7 +15,6 @@ body{
 
 /* Main Style */
 .container{
-    /* background-color: brown; */
     width: 100%;
     overflow: hidden;
     display: flex;
@@ -35,7 +34,6 @@ body{
 
 /* HEADER */
 header{
-    /* background-color: aquamarine; */
     margin: 50px auto 0;
     display: flex;
     justify-content: center;
@@ -43,7 +41,6 @@ header{
 }
 
 .box-judul{
-    /* background-color: aqua; */
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -57,11 +54,9 @@ header{
 
 .box-judul .logo-text{
     margin-top: -70px;
-    /* background-color: aliceblue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .box-judul .logo-text h1,h2{
@@ -86,7 +81,6 @@ header{
 /* Form */
 form{
     margin: 50px auto 0;
-    /* background-color: aquamarine; */
     display: flex;
     width: 80%;
     flex-direction: column;
@@ -99,9 +93,6 @@ form .phone{
     border-radius: 10px;
     border: 2px solid #403C3C;
 }
-/* form .phone:active{
-    border: 2px solid #2E6021;
-} */
 
 form .btn{
     cursor: pointer;
@@ -122,7 +113,6 @@ form .btn:hover{
 }
 
 form .check-box{
-    /* background-color: #616063; */
     margin-top: 40px;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -131,7 +121,6 @@ form .check-box{
 
 form .check-box .box-1{
     display: grid;
-    /* background-color: antiquewhite; */
     grid-template-columns: 5% 95%;
     gap: 5px;
 }
@@ -139,7 +128,6 @@ form .check-box .box-1{
 .guest{
     margin-top: 80px;
     padding: 5px 50px;
-    /* background-color: #2E6021; */
     border: 3px solid #2E6021;
     border-radius: 10px;
     color: black;
@@ -150,8 +138,6 @@ form .check-box .box-1{
 .guest:hover{
     background-color: #2E6021;
     color: #fff;
-    /* border: none; */
-    /* padding: 10px 60px; */
 }
 
 /* FOOTER */
@@ -220,7 +206,6 @@ footer .wave{
     /* FORM */
     form{
         margin: 50px auto 0;
-        /* background-color: aquamarine; */
         display: flex;
         width: 80%;
         flex-direction: column;
@@ -233,9 +218,6 @@ footer .wave{
         border-radius: 10px;
         border: 2px solid #403C3C;
     }
-    /* form .phone:active{
-        border: 2px solid #2E6021;
-    } */
     
     form .btn{
         cursor: pointer;
@@ -256,7 +238,6 @@ footer .wave{
     }
     
     form .check-box{
-        /* background-color: #616063; */
         transform: scale(.9);
         margin-top: 40px;
         display: grid;
@@ -266,7 +247,6 @@ footer .wave{
     
     form .check-box .box-1{
         display: grid;
-        /* background-color: antiquewhite; */
         grid-template-columns: 5% 95%;
         gap: 20px;
     }
@@ -274,7 +254,6 @@ footer .wave{
     .guest{
         margin-top: 80px;
         padding: 5px 40px;
-        /* background-color: #2E6021; */
         border: 3px solid #2E6021;
         border-radius: 10px;
         color: black;
@@ -287,8 +266,6 @@ footer .wave{
     .guest:hover{
         background-color: #2E6021;
         color: #fff;
-        /* border: none; */
-        /* padding: 10px 60px; */
     }
 }
 
